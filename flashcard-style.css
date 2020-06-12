@@ -1,0 +1,17 @@
+/*
+TODO(you): Write any additional styles you need here.
+*/
+
+@keyframes bounce {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+.flashcard-box .word {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+}
